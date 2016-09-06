@@ -1,0 +1,8 @@
+-js dist/js/test.js
+-main MainTest
+
+-cp src
+-cp test
+
+-lib hexunit
+-resource ./resource/index.html

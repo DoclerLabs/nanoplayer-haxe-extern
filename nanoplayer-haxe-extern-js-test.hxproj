@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+  <!-- Output SWF options -->
+  <output>
+    <movie outputType="CustomBuild" />
+    <movie input="" />
+    <movie path="build-js-test.hxml" />
+    <movie fps="30" />
+    <movie width="1445" />
+    <movie height="695" />
+    <movie version="0" />
+    <movie minorVersion="0" />
+    <movie platform="hxml" />
+    <movie background="#800000" />
+  </output>
+  <!-- Other classes to be compiled into your SWF -->
+  <classpaths>
+    <class path="src" />
+    <class path="test" />
+  </classpaths>
+  <!-- Build options -->
+  <build>
+    <option directives="" />
+    <option flashStrict="False" />
+    <option noInlineOnDebug="False" />
+    <option mainClass="MainTest" />
+    <option enabledebug="False" />
+    <option additional="-resource ./resource/index.html" />
+  </build>
+  <!-- haxelib libraries -->
+  <haxelib>
+    <library name="hexunit" />
+  </haxelib>
+  <!-- Class files to compile (other referenced classes will automatically be included) -->
+  <compileTargets>
+    <compile path="src\armageddonclient\Main.hx" />
+  </compileTargets>
+  <!-- Paths to exclude from the Project Explorer tree -->
+  <hiddenPaths>
+    <hidden path="obj" />
+  </hiddenPaths>
+  <!-- Executed before build -->
+  <preBuildCommand>cmd /c haxe $(OutputFile)</preBuildCommand>
+  <!-- Executed after build -->
+  <postBuildCommand alwaysRun="False" />
+  <!-- Other project options -->
+  <options>
+    <option showHiddenPaths="True" />
+    <option testMovie="Webserver" />
+    <option testMovieCommand="./dist/index.html" />
+  </options>
+  <!-- Plugin storage -->
+  <storage />
+</project>
