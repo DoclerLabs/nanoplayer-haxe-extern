@@ -1,0 +1,11 @@
+{
+  "name": "nanoplayer-haxe-extern",
+  "license": "MIT",
+  "classPath": "src",
+  "tags": ["nanoplayer", "extern"],
+  "description": "Extern files for NanoPlayer",
+  "contributors": ["d3relict"],
+  "releasenote": "First release.",
+  "version": "0.1.0",
+  "url": "https://github.com/DoclerLabs/nanoplayer-haxe-extern"
+}
