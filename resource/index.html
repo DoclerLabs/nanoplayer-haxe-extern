@@ -8,7 +8,16 @@
 </head>
 <body>
 	<div id="console"></div>
-	<script type="text/JavaScript" src="http://demo.nanocosmos.de/nanoplayer/api/nanoplayer/nanoplayer.min.js"></script>
+	<script type="text/javascript" src="http://requirejs.org/docs/release/2.3.2/minified/require.js"></script>
+	<script>
+        requirejs.config({
+            paths: {
+                nanoplayer: 'http://demo.nanocosmos.de/nanoplayer/api/nanoplayer.min'
+            },
+            waitSeconds: 20, // timeout for loading modules
+        });
+    </script>
+
 	<script src="js/test.js"></script>
 </body>
 </html>

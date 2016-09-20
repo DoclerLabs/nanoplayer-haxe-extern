@@ -1,6 +1,7 @@
 package js.nanoplayer;
 
 import hex.unittest.assertion.Assert;
+import js.Lib;
 import js.nanoplayer.NanoPlayer;
 
 /**
@@ -14,7 +15,6 @@ class NanoPlayerTest
 	@Before
 	public function init() : Void
 	{
-		untyped require('nanoplayer');
 	}
 
 	@Test( "NanoPlayer exists" )
