@@ -7,7 +7,7 @@ import js.Promise;
  * @author d3relict
  */
 
-@:jsRequire('nanoplayer')
+@:native('NanoPlayer')
 extern class NanoPlayer
 {
 	public function new(domId: String): Void;
