@@ -20,7 +20,7 @@ extern class NanoPlayer
 	/**
 	 * The version of the player.
 	 */
-	public var version(get, null): String;
+	public var version: String;
 	
 	/**
 	 * Mutes the player.
