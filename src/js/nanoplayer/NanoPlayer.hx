@@ -20,7 +20,7 @@ extern class NanoPlayer
 	/**
 	 * The version of the player.
 	 */
-	public var type(get, null): String;
+	public var type: String;
 	
 	/**
 	 * The version of the player.
