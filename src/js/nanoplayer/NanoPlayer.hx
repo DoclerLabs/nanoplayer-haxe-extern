@@ -3,7 +3,7 @@ package js.nanoplayer;
 import js.Promise;
 
 /**
- * NanoPlayer 1.1.2
+ * extern for NanoPlayer 2.4.1
  * @author d3relict
  */
 
