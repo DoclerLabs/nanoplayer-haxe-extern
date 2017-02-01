@@ -13,6 +13,11 @@ extern class NanoPlayer
 	public function new(domId: String): Void;
 	
 	/**
+	 * List of tech names that are supported on the current platform
+	 */
+	public static var capabilities: Array<String>;
+	
+	/**
 	 * The version of the player.
 	 */
 	public var type(get, null): String;
