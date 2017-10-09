@@ -56,4 +56,9 @@ extern class NanoPlayer
 	 * Unmutes the player.
 	 */
 	public function unmute(): Void;
+	
+	/**
+	 * Destroy the player.
+	 */
+	public function destroy(): Void;
 }
