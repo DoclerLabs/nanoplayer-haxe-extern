@@ -1,6 +1,10 @@
 package js.nanoplayer;
 
+#if haxe4
+import js.lib.Promise;
+#else
 import js.Promise;
+#end
 
 /**
  * extern for NanoPlayer 2.4.1
